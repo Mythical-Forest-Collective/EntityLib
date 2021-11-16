@@ -9,3 +9,4 @@ class Entity(EntityEmptyBase):
 
 if __name__ == '__main__':
     entity = Entity('Human', 10, 20, 5, 10)
+    print(entity.name, entity.health, entity.max_health, entity.mana, entity.max_mana)

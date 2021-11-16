@@ -2,7 +2,6 @@ from ..bases import EntityEmptyBase
 from ..exceptions import NoInteractEvent
 
 class HealthMixin(object):
-
     """
     Health Mixin that adds an extremely basic health system to the Entity class
 
