@@ -17,7 +17,7 @@ class HealthMixin(object):
     Attributes
     ----------
     health:int
-        The current health you want the entity to start with
+      The current health you want the entity to start with
 
     max_health:int
       The max health of the entity
@@ -57,7 +57,7 @@ class ManaMixin(object):
     Attributes
     ----------
     mana:int
-        The current mana you want the entity to start with
+      The current mana you want the entity to start with
 
     max_mana:int
       The max mana of the entity
@@ -119,8 +119,7 @@ class OnInteractMixin(object)
 
     def interact(self, entity:EntityEmptyBase):
         """
-        Function that allows interaction with any target entity with the
-InteractWithMixin
+        Function that allows interaction with any target entity with the InteractWithMixin
 
         Parameters
         ----------
